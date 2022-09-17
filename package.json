@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-cry",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier config for Next.js",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix"
+  },
+  "peerDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-tailwindcss": "^3.6.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "prettier",
+    "typescript",
+    "lint"
+  ],
+  "author": "Emre Bal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrebal98/eslint-config-cry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emrebal98/eslint-config-cry/issues"
+  },
+  "homepage": "https://github.com/emrebal98/eslint-config-cry#readme"
+}
